@@ -1,0 +1,57 @@
+/* Header and Footer - MAROON */
+header, footer {
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Profile Container */
+.profile-container {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* Tabs Styling */
+.login-btn {
+  background-color: blue;
+}
+
+.signup-btn {
+  background-color: blue;
+}
+
+.login-btn, .signup-btn {
+  color: white;
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background-color: darkblue;
+}
+
+/* Back Button - BLACK */
+.back-container {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.back-container button {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back-container button:hover {
+  background-color: grey;
+}

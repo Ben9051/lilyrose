@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("C:/xampp/htdocs/lilyrose/uploads/WhatsApp Image 2025-03-13 at 14.54.02_e59446e7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: brown;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+
+.header-icons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: brown;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#cart-icon {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
